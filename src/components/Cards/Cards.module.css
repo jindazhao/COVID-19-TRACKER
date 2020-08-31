@@ -1,0 +1,18 @@
+.container {
+    margin: 50px 0;
+
+}
+
+.card {
+    margin: 0 2% !important;
+}
+
+.infected {
+    border-bottom: 10px slid rgba(0, 0, 255, 0.5)
+}
+.rocovered {
+    border-bottom: 10px slid rgba(0, 255, 0, 0.5)
+}
+.deaths {
+    border-bottom: 10px slid rgba(255, 0, 255, 0.5)
+}
