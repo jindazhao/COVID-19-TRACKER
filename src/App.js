@@ -6,7 +6,7 @@ import styles from './App.module.css'
 import {fetchData } from './api';
 import image from './images/image.png';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles'
-import { Switch, Paper } from '@material-ui/core';
+import {Paper } from '@material-ui/core';
 
 
 
@@ -35,7 +35,7 @@ class App extends React.Component {
 
         const theme = createMuiTheme({
             palette: {
-                type: "light"
+                type: "dark"
             },
         });
         
