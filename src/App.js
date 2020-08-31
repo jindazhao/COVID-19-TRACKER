@@ -18,12 +18,12 @@ class App extends React.Component {
 
     async componentDidMount() {
         const fetchedData = await fetchData();
-        this.setState({data: data});
+        this.setState({data: fetchedData});
     }
 
 
     render() {
-        const { data } = this.state;
+        const {data} = this.state;
 
         return (
             <div className={styles.container}>
