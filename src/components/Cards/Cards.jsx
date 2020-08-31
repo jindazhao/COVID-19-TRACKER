@@ -57,11 +57,7 @@ const Cards = ({data : { confirmed, recovered, deaths, lastUpdate }}) => {
                         <Typography variant="body2">Number of deaths caused by COVID-19</Typography>
                     </CardContent>
                 </Grid>
-
-            
             </Grid>
-
-
         </div>
     )
 }
